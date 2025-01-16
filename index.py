@@ -25,7 +25,7 @@ else:
     input("\n It seems that the JSON file is missing. Make sure you have downloaded it from GitHub and restart the script.")
     exit()
 
-# Check if the token is valid and get the user ID.
+# Check if the token is valid and get the global name and user ID.
 discord_headers = {'authorization': config['token'],
                    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.1126 Chrome/128.0.6613.186 Electron/32.2.7 Safari/537.36'}
 
