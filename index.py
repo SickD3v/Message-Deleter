@@ -44,7 +44,7 @@ messages_count = input(f"\n [{global_name}] Number of messages : ")
 if messages_count.isdigit():
     messages_count = int(messages_count)
 else:
-    input(" It seems that you have entered an invalid number; this input must not contain any alphabetic characters.")
+    input("\n It seems that you have entered an invalid number; this input must not contain any alphabetic characters.")
     exit()
 
 # Check where the messages need to be deleted.
